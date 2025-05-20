@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* Google font */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+
+@theme inline{
+    --font-red-hat-display: "Red Hat Display", serif;
+}
+
+@theme {
+    --font-red-hat-display: "Red Hat Display", serif;
+    /* --font-body: var(--font-red-hat-display); */
+
+    /* Color variable */
+    --color-main: #2970cc;
+    --color-main-2: #45c7ff;
+    --color-main-shade: #e5e8ff;
+    --color-main-shade-2: #ecf9ff;
+    --color-danger: #ff5050;
+    --color-success: #30d287;
+    --color-success-light: #e8fff4;
+    --color-warning: #ffc362;
+    --color-warning-light: #fff8ec;
+    --color-dark-1: #001924;
+    --color-dark-2: #54616b;
+    --color-dark-3: #8e99a1;
+    --color-dark-4: #bbc5cd;
+    --color-dark-5: #d8dfe5;
+    --color-dark-7: #f5f7f8;
+    --color-dark-8: #f7f7f7;
+    --color-dark-9: #e9edf0;
+    --color-dark-10: #f1f1f1;
+}
+
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-red-hat-display) !important;
+   font-family: 'Red Hat Display', sans-serif !important;
+}
+
+
+/* Login page style -start */
+.login-signup-bg {
+    background: url(../public/assets/images/login-page-bg.jpg) no-repeat center
+        center;
+    background-size: cover;
+}
+/* Login page style -end */
+
+/* Footer style -start */
+.footer-area {
+    background: url("../public/assets/images/footer-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.footer-navigation li a::before {
+    background: url('data:image/svg+xml,<svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M-5.24537e-07 0L0 12L10 5.99677L-5.24537e-07 0Z" fill="%2345C7FF"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* Footer style -end */
+
+/* why-rent-metrics-banner */
+.why-rent-metrics-banner {
+    background: url("../public/assets/images/why-rent-metrics-ai-banner-bg.svg")
+        no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* why-rent-metrics-banner */
