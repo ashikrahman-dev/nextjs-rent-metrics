@@ -1,4 +1,4 @@
-export default function whyrentmetrics() {
+export default function Whyrentmetrics() {
     return (
         <section className="why-rent-metrics-banner xl:py-[120px] lg:py-[100px] md:py-20 sm:py-16 py-14">
             <div className="container mx-auto px-4 text-center">

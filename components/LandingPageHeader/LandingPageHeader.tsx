@@ -1,11 +1,8 @@
-
+import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/assets/images/logo.svg";
-import Image from 'next/image';
 import { menuItems } from "../../utilities/data/data";
 import OffcanvasMenu from "../OffcanvasMenu/OffcanvasMenu";
-import SignInPopUp from "../SignInPopUp/SignInPopUp";
-import SignUpPopUp from "../SignUpPopUp/SignUpPopUp";
 
 export default function LandingPageHeader() {
     return (
@@ -13,7 +10,11 @@ export default function LandingPageHeader() {
             <div className="container sm:grid flex justify-between items-center sm:grid-cols-12 gap-6 mx-auto">
                 {/* Logo */}
                 <Link href="/" className="xl:col-span-2 sm:col-span-6">
-                     <Image src={logo} alt="Banner Image"   className="xl:max-w-[180px] lg:max-w-[150px] md:max-w-[140px] max-w-32" />
+                    <Image
+                        src={logo}
+                        alt="Banner Image"
+                        className="xl:max-w-[180px] lg:max-w-[150px] md:max-w-[140px] max-w-32"
+                    />
                 </Link>
 
                 {/* Menu */}
@@ -30,10 +31,7 @@ export default function LandingPageHeader() {
                 </div>
 
                 {/* Back to Dashboard Button */}
-                <div className="xl:col-span-3 col-span-6 xl:gap-8 lg:gap-6 gap-4 items-center justify-end hidden md:flex">
-                    <SignInPopUp />
-                    <SignUpPopUp />
-                </div>
+                <div className="xl:col-span-3 col-span-6 xl:gap-8 lg:gap-6 gap-4 items-center justify-end hidden md:flex"></div>
 
                 {/* Offcanvas Menu */}
                 <div className="md:hidden sm:col-span-6 flex justify-end">
