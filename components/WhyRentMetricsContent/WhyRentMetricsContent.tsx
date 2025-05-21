@@ -84,7 +84,7 @@ export default function WhyRentMetricsContent() {
                                 </p>
                             </div>
 
-                            <div className="sm:col-span-6 col-span-full sm:order-2 order-1">
+                            <div className="sm:col-span-6 col-span-full sm:order-2 order-1 flex justify-end">
                                 <Image
                                     src={firstPoweredRealEstate}
                                     alt="Image"
