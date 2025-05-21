@@ -31,7 +31,20 @@ export default function LandingPageHeader() {
                 </div>
 
                 {/* Back to Dashboard Button */}
-                <div className="xl:col-span-3 col-span-6 xl:gap-8 lg:gap-6 gap-4 items-center justify-end hidden md:flex"></div>
+                <div className="xl:col-span-3 col-span-6 xl:gap-8 lg:gap-6 gap-4 items-center justify-end hidden md:flex">
+                    <Link
+                        href="/dashboard"
+                        className="font-black text-dark-1 xl:text-base text-sm cursor-pointer"
+                    >
+                        Sign in
+                    </Link>
+                    <Link
+                        href="/dashboard"
+                        className="xl:text-base text-sm xl:px-6 lg:px-5 px-4 xl:py-[14px] lg:py-3 py-2.5 bg-main rounded-lg text-white font-black transition-colors duration-200 hover:bg-main-shade hover:text-main inline-block cursor-pointer"
+                    >
+                        Sign up
+                    </Link>
+                </div>
 
                 {/* Offcanvas Menu */}
                 <div className="md:hidden sm:col-span-6 flex justify-end">
