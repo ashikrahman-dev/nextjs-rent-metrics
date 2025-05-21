@@ -29,7 +29,6 @@ body {
     background: var(--background);
     color: var(--foreground);
     font-family: var(--font-red-hat-display) !important;
-    font-family: "Red Hat Display", sans-serif !important;
 }
 
 /* Login page style -start */

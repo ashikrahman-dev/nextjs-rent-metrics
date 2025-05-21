@@ -11,6 +11,13 @@ const redHat = Red_Hat_Display({
     weight: ["400", "500", "700"], // Optional: choose the weights you need
 });
 
+export const metadata = {
+    title: "Rent Metrics",
+    icons: {
+        icon: "/favicon.svg", // path is relative to public/
+    },
+};
+
 export default function RootLayout({
     children,
 }: Readonly<{
