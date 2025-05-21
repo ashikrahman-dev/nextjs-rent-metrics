@@ -1,13 +1,5 @@
 @import "tailwindcss";
 
-/* Google font */
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
-
-
-@theme inline{
-    --font-red-hat-display: "Red Hat Display", serif;
-}
-
 @theme {
     --font-red-hat-display: "Red Hat Display", serif;
     /* --font-body: var(--font-red-hat-display); */
@@ -33,15 +25,12 @@
     --color-dark-10: #f1f1f1;
 }
 
-
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-red-hat-display) !important;
-   font-family: 'Red Hat Display', sans-serif !important;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-red-hat-display) !important;
+    font-family: "Red Hat Display", sans-serif !important;
 }
-
 
 /* Login page style -start */
 .login-signup-bg {

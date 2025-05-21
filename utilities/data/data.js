@@ -7,6 +7,6 @@ export const menuItems = [
     {
         id: 2,
         title: "Business Intelligence",
-        url: "/businessIntelligence",
+        url: "/business-intelligence",
     },
 ];
